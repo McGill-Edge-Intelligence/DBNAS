@@ -1,0 +1,13 @@
+data:
+  train_path: "/home/hang/projects/def-wjgross/hang/bert_nas/glue_data/SST-2/train.tsv"
+  val_path: "/home/hang/projects/def-wjgross/hang/bert_nas/glue_data/SST-2/dev.tsv"
+  seq_len: 128
+  embed_dim: 768
+  num_labels: 1
+
+train:
+  max_epochs: 150
+  batch_size: 64
+  num_samples: 20
+  block_num: 1
+  cell_num: 1
