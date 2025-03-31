@@ -1,0 +1,13 @@
+numpy
+scipy
+cython
+torch
+torchvision
+transformers
+pytorch_lightning
+hydra-core
+torchtext
+wandb
+pandas
+wget
+thop
